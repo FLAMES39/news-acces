@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  
+  /* Navbar styling */
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 3rem;
+    margin: 1.5rem;
+    margin-bottom: 2.4rem;
+  }
+  .icon h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-top: 1.2rem;
+  }
+  .nav1 {
+    display: flex;
+    align-items: center;
+  }
+  .nav1 a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: hsl(233, 8%, 79%);
+  }
+  
+  
+  .report {
+    margin-left: 19rem;
+    margin-right: 16rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "one one two" "three four two";
+    gap: 15px;
+  }
+  .report1 {
+    grid-area: one;
+  }
+  .report1 img {
+    max-width: 42rem;
+  }
+  .grid2 {
+    background-color: hsl(240, 100%, 5%);
+    width: 22rem;
+    height: 28rem;
+    align-items: center;
+    grid-area: two;
+  }
+  .grid2 h2 {
+    color: hsl(35, 77%, 62%);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 1.8rem;
+    margin-top: 2rem;
+  }
+  .new1 {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    margin: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .new1 h3 {
+    color: white;
+    font-weight: bolder;
+    margin-top: 0.1rem;
+    font-size: 1.2rem;
+  }
+  .new1 p {
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+  }
+  .new2 {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    margin: 1.5rem;
+  }
+  .new2 h3 {
+    color: white;
+    font-weight: bolder;
+    margin-top: 0.1rem;
+    font-size: 1.2rem;
+  }
+  .new2 p {
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+  }
+  .new3 {
+    margin: 1.5rem;
+  }
+  .new3 h3 {
+    color: white;
+    font-weight: bolder;
+    margin-top: 0rem;
+    font-size: 1.4rem;
+  }
+  .new3 p {
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+  }
+  .grid3 {
+    width: 19rem;
+    grid-area: three;
+  }
+  .grid3 h1 {
+    font-size: 3rem;
+    font-weight: 8rem;
+  }
+  .grid4 {
+    width: 21rem;
+    color: hsl(233, 8%, 79%);
+    grid-area: four;
+  }
+  .grid4 p {
+    margin: 1rem;
+    font-size: 15px;
+  }
+  .grid4 button {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 1.2rem;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    font-weight: bolder;
+    border: none;
+  }
+  
+  /*Cards styling  */
+  
+  .cards {
+    margin-left: 18rem;
+    margin-right: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+  .sample {
+    display: flex;
+    margin: 1rem;
+  }
+  .sample img {
+    max-width: 7rem;
+    max-height: 7rem;
+  }
+  .content {
+    margin-left: 1rem;
+  }
+  .content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+    color: hsl(233, 8%, 79%);
+  }
+  .content h4 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+    color: hsl(240, 100%, 5%);
+  }
+  .content p {
+    font-size: 0.3rem;
+    color: hsl(233, 8%, 79%);
+  }
